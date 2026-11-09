@@ -57,3 +57,10 @@ Function: validateAgeAsync(age: number): Promise<string>
 
 If age >= 18: resolves with "Access Granted" after 1 second.
 If age < 18: rejects immediately with new Error("Access Denied: Must be 18 or older").
+
+
+### Blogs
+
+[type-vs-interface].md
+[Access-modifiers].md
+
