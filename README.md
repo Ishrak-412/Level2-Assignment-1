@@ -1,12 +1,12 @@
 ### Problem 1
 
-Concept is default parameter(The default parameter is used when the argument is undefined).
+Concept is default parameter(The default parameter is used when the argument is undefined).\
 Function: multiplyValue(value: number, multiplier?: number): number
 
 
 ### Problem 2
 
-Concept is Union type
+Concept is Union type.\
 Function: processInput(input: string | number | boolean): string | number
 
 Returns a formatted result based on the input type:
@@ -16,29 +16,29 @@ boolean: "Active" for true, "Inactive" for false
 
 ### Problem 3
 
-Concept is readonly tuple.
+Concept is readonly tuple.\
 Function: formatCoordinate(coordinate: readonly [number, number, string]): string
 
 ### Problem 4
 
-Concept is rest parameter.
+Concept is rest parameter.\
 Function: concatenateArrays<T>(...arrays: T[][]): T[]
 
 ### Problem 5
 
-Concept is interface.
+Concept is interface.\
 Interface: Course with title (string), students (number), isPublished (boolean)
 
 Function: getPopularCourses(courses: Course[], minStudents: number): Course[]
 
 ### Problem 6
 
-Concepts is indexed access types.
+Concepts is indexed access types.\
 Function: pluckValues<T, K extends keyof T>(items: T[], key: K): T[K][]
 
 ### Problem 7
 
-Concept is classes, inheritance, protected and private modifiers, super.
+Concept is classes, inheritance, protected and private modifiers, super.\
 Class: Employee
 
 protected name: string
@@ -52,7 +52,7 @@ getRoleInfo() returns "Manager of [department]: [name]"
 
 ### Problem 8
 
-Concept is async function, error handling.
+Concept is async function, error handling.\
 Function: validateAgeAsync(age: number): Promise<string>
 
 If age >= 18: resolves with "Access Granted" after 1 second.
