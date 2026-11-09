@@ -61,6 +61,6 @@ If age < 18: rejects immediately with new Error("Access Denied: Must be 18 or ol
 
 ### Blogs
 
-[Type vs Interface]([type-vs-interface].md)
+[Type vs Interface]([type-vs-interface].md)\
 [Access_Modifiers]([Access-modifiers].md)
 
